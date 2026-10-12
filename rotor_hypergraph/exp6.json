@@ -1,0 +1,143 @@
+{
+ "reps": 5,
+ "lengths": [
+  512,
+  1024,
+  2048,
+  4096,
+  8192
+ ],
+ "stages": {
+  "signal_length": 2048,
+  "tau": 11,
+  "dim": 9,
+  "n_nodes": 980,
+  "n_edges": 23327,
+  "symbolic_entropy_curve": {
+   "mean_s": 0.0388788200012641,
+   "std_s": 0.003936424652409924
+  },
+  "lpf_smooth_and_derivative": {
+   "mean_s": 0.000683759999810718,
+   "std_s": 0.00016365537772546963
+  },
+  "mutual_information": {
+   "mean_s": 0.06657330000307411,
+   "std_s": 0.016263136841192027
+  },
+  "autocorrelation": {
+   "mean_s": 0.0003285599988885224,
+   "std_s": 1.971543496599872e-05
+  },
+  "cc_method": {
+   "mean_s": 1.345718179999676,
+   "std_s": 0.02963526886680156
+  },
+  "cao_fnn": {
+   "mean_s": 0.0634602400008589,
+   "std_s": 0.0061892436409363505
+  },
+  "recurrence_network": {
+   "mean_s": 0.1101029200013727,
+   "std_s": 0.0049975172754136085
+  },
+  "ni_louvain": {
+   "mean_s": 0.2540835399981006,
+   "std_s": 0.031234608158880944
+  },
+  "hypergraph_features": {
+   "mean_s": 0.22499815999908607,
+   "std_s": 0.024015135201405167
+  },
+  "vmd_K3": {
+   "mean_s": 0.03352006000059191,
+   "std_s": 0.002041490149985143
+  },
+  "full_pipeline": {
+   "mean_s": 0.4931977200001711,
+   "std_s": 0.017305568484106193
+  },
+  "ni_louvain_reference": {
+   "mean_s": 2.129318239998247,
+   "std_s": 0.13064979443568772
+  }
+ },
+ "stages_mean_over_5": {
+  "symbolic_entropy_curve": 0.05776324800011935,
+  "lpf_smooth_and_derivative": 0.0009578119998332113,
+  "mutual_information": 0.09759744000039064,
+  "autocorrelation": 0.0010980639993795195,
+  "cc_method": 1.790905743999756,
+  "cao_fnn": 0.07934199199982686,
+  "recurrence_network": 0.1320903160003945,
+  "ni_louvain": 0.4235521279994282,
+  "hypergraph_features": 0.3139181319990894,
+  "vmd_K3": 0.05443142399948555,
+  "full_pipeline": 0.7413688159998856,
+  "ni_louvain_reference": 4.705830204000231
+ },
+ "scaling_source": "Lorenz, 10000 points",
+ "scaling": {
+  "512": {
+   "symbolic_entropy_curve": {
+    "mean_s": 0.017538366667092003,
+    "std_s": 0.008457365006332073
+   },
+   "recurrence_network": {
+    "mean_s": 0.02940129999963877,
+    "std_s": 0.0038654977267088375
+   },
+   "n_nodes": 452,
+   "n_edges": 4882
+  },
+  "1024": {
+   "symbolic_entropy_curve": {
+    "mean_s": 0.027484766666020732,
+    "std_s": 0.008018858323711957
+   },
+   "recurrence_network": {
+    "mean_s": 0.07938030000029055,
+    "std_s": 0.007111425483862625
+   },
+   "n_nodes": 959,
+   "n_edges": 22478
+  },
+  "2048": {
+   "symbolic_entropy_curve": {
+    "mean_s": 0.0647583666650462,
+    "std_s": 0.01897221838813788
+   },
+   "recurrence_network": {
+    "mean_s": 0.14191043333266862,
+    "std_s": 0.01792995099850884
+   },
+   "n_nodes": 966,
+   "n_edges": 23252
+  },
+  "4096": {
+   "symbolic_entropy_curve": {
+    "mean_s": 0.09737296666571638,
+    "std_s": 0.03999528536342358
+   },
+   "recurrence_network": {
+    "mean_s": 0.14625143333735954,
+    "std_s": 0.013957561080000139
+   },
+   "n_nodes": 1344,
+   "n_edges": 44530
+  },
+  "8192": {
+   "symbolic_entropy_curve": {
+    "mean_s": 0.22454896666749846,
+    "std_s": 0.06374682935489974
+   },
+   "recurrence_network": {
+    "mean_s": 0.15374226666608592,
+    "std_s": 0.02231849895905758
+   },
+   "n_nodes": 1355,
+   "n_edges": 44984
+  }
+ },
+ "runtime_s": 255.67367124557495
+}

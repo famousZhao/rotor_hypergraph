@@ -1,0 +1,426 @@
+{
+ "n_per_class": 20,
+ "methods": {
+  "lpf_sem": {
+   "separability": {
+    "kw": [
+     {
+      "feature": "n_nodes",
+      "H": 25.361026963504617,
+      "p": 1.2976475545615485e-05
+     },
+     {
+      "feature": "n_hyperedges",
+      "H": 23.47443356207117,
+      "p": 3.215664692065806e-05
+     },
+     {
+      "feature": "hedge_size_mean",
+      "H": 31.724359139658933,
+      "p": 5.982374970605083e-07
+     },
+     {
+      "feature": "hedge_size_std",
+      "H": 4.344259259259246,
+      "p": 0.22660983410889174
+     },
+     {
+      "feature": "hedge_size_max",
+      "H": 19.447215933750158,
+      "p": 0.00022094239504380687
+     },
+     {
+      "feature": "hedge_size_entropy",
+      "H": 3.735740740740738,
+      "p": 0.2914495565611852
+     },
+     {
+      "feature": "node_degree_mean",
+      "H": 11.445151969805321,
+      "p": 0.009546949363052842
+     },
+     {
+      "feature": "node_degree_std",
+      "H": 13.339525656953983,
+      "p": 0.003957037030785563
+     },
+     {
+      "feature": "overlap_ratio",
+      "H": 8.1674881899917,
+      "p": 0.04267412812868254
+     },
+     {
+      "feature": "hedge_interaction",
+      "H": 23.54592592592593,
+      "p": 3.1071101136132897e-05
+     },
+     {
+      "feature": "giant_fraction",
+      "H": 2.04645068227769,
+      "p": 0.5628218788136656
+     },
+     {
+      "feature": "algebraic_connectivity",
+      "H": 42.43475661927588,
+      "p": 3.2441845869646382e-09
+     },
+     {
+      "feature": "spectral_radius",
+      "H": 30.64370370370375,
+      "p": 1.0103013504202125e-06
+     },
+     {
+      "feature": "spectral_gap",
+      "H": 27.313888888888926,
+      "p": 5.059445609578622e-06
+     },
+     {
+      "feature": "spectral_entropy",
+      "H": 11.02092592592598,
+      "p": 0.01161325766137542
+     }
+    ],
+    "fisher_mean": 0.5186165323858837,
+    "fisher_per_feature": {
+     "n_nodes": 0.4889786497403354,
+     "n_hyperedges": 0.23322460391425887,
+     "hedge_size_mean": 0.7359494137658272,
+     "hedge_size_std": 0.09161228520409344,
+     "hedge_size_max": 0.6573028734060453,
+     "hedge_size_entropy": 0.0538223866735631,
+     "node_degree_mean": 0.4063610526347337,
+     "node_degree_std": 0.701367275890827,
+     "overlap_ratio": 0.19628571971333902,
+     "hedge_interaction": 0.6429569759380799,
+     "giant_fraction": 0.053275274296382166,
+     "algebraic_connectivity": 1.1266304366466888,
+     "spectral_radius": 1.0425654986650439,
+     "spectral_gap": 1.1872910165973722,
+     "spectral_entropy": 0.16162452270166297
+    },
+    "nc_cv_acc": 0.6,
+    "nc_cv_std": 0.10897247358851683,
+    "silhouette": -0.026178256094353147
+   },
+   "tau_mean": 10.8375,
+   "tau_std": 0.36890886408434265,
+   "hedge_mean": 10.3625
+  },
+  "raw_se": {
+   "separability": {
+    "kw": [
+     {
+      "feature": "n_nodes",
+      "H": 54.27435773752101,
+      "p": 9.806226992744265e-12
+     },
+     {
+      "feature": "n_hyperedges",
+      "H": 6.662917574546438,
+      "p": 0.08345418139335638
+     },
+     {
+      "feature": "hedge_size_mean",
+      "H": 15.80648178536267,
+      "p": 0.0012424212367446068
+     },
+     {
+      "feature": "hedge_size_std",
+      "H": 51.36166666666668,
+      "p": 4.096725555674561e-11
+     },
+     {
+      "feature": "hedge_size_max",
+      "H": 61.07354010318952,
+      "p": 3.466250466892751e-13
+     },
+     {
+      "feature": "hedge_size_entropy",
+      "H": 40.96129629629638,
+      "p": 6.6639765745275654e-09
+     },
+     {
+      "feature": "node_degree_mean",
+      "H": 45.019916312106595,
+      "p": 9.162961957092655e-10
+     },
+     {
+      "feature": "node_degree_std",
+      "H": 52.35746551178523,
+      "p": 2.5131559522422227e-11
+     },
+     {
+      "feature": "overlap_ratio",
+      "H": 36.928150310020264,
+      "p": 4.765287727157942e-08
+     },
+     {
+      "feature": "hedge_interaction",
+      "H": 17.54111111111115,
+      "p": 0.0005468741174092096
+     },
+     {
+      "feature": "giant_fraction",
+      "H": 24.29373857532553,
+      "p": 2.1689698954757884e-05
+     },
+     {
+      "feature": "algebraic_connectivity",
+      "H": 35.785000000000025,
+      "p": 8.314586704745001e-08
+     },
+     {
+      "feature": "spectral_radius",
+      "H": 63.55314814814818,
+      "p": 1.0228146754086552e-13
+     },
+     {
+      "feature": "spectral_gap",
+      "H": 51.20222222222225,
+      "p": 4.430059412171335e-11
+     },
+     {
+      "feature": "spectral_entropy",
+      "H": 49.24907407407409,
+      "p": 1.154523420558712e-10
+     }
+    ],
+    "fisher_mean": 1.4179661253008846,
+    "fisher_per_feature": {
+     "n_nodes": 1.6180086172074764,
+     "n_hyperedges": 0.04631143075079008,
+     "hedge_size_mean": 0.3112172896070381,
+     "hedge_size_std": 1.7805554001326394,
+     "hedge_size_max": 2.963552638254604,
+     "hedge_size_entropy": 0.5702952525981135,
+     "node_degree_mean": 2.2038978302738372,
+     "node_degree_std": 1.6585448368961344,
+     "overlap_ratio": 1.7904207303697055,
+     "hedge_interaction": 0.45107054085258885,
+     "giant_fraction": 0.20190010255555424,
+     "algebraic_connectivity": 0.9970792473137624,
+     "spectral_radius": 3.8332636089862113,
+     "spectral_gap": 1.0622091286352888,
+     "spectral_entropy": 1.7811652250795276
+    },
+    "nc_cv_acc": 0.7375,
+    "nc_cv_std": 0.07288689868556626,
+    "silhouette": 0.08132287810895115
+   },
+   "tau_mean": 7.4625,
+   "tau_std": 1.6803552451788282,
+   "hedge_mean": 11.15
+  },
+  "mi": {
+   "separability": {
+    "kw": [
+     {
+      "feature": "n_nodes",
+      "H": 50.5135305093353,
+      "p": 6.210489804660407e-11
+     },
+     {
+      "feature": "n_hyperedges",
+      "H": 35.28359181066688,
+      "p": 1.0612443371758602e-07
+     },
+     {
+      "feature": "hedge_size_mean",
+      "H": 34.46914133008272,
+      "p": 1.5771332147316145e-07
+     },
+     {
+      "feature": "hedge_size_std",
+      "H": 52.10833333333335,
+      "p": 2.8400084877185332e-11
+     },
+     {
+      "feature": "hedge_size_max",
+      "H": 52.49132316207949,
+      "p": 2.3533528083920814e-11
+     },
+     {
+      "feature": "hedge_size_entropy",
+      "H": 44.751666666666665,
+      "p": 1.0448215191611264e-09
+     },
+     {
+      "feature": "node_degree_mean",
+      "H": 37.21013150800537,
+      "p": 4.153621090615143e-08
+     },
+     {
+      "feature": "node_degree_std",
+      "H": 37.91211101864763,
+      "p": 2.9502021372827403e-08
+     },
+     {
+      "feature": "overlap_ratio",
+      "H": 35.74061078812885,
+      "p": 8.496187262542582e-08
+     },
+     {
+      "feature": "hedge_interaction",
+      "H": 35.55962962962968,
+      "p": 9.278514451964557e-08
+     },
+     {
+      "feature": "giant_fraction",
+      "H": 43.03013582104245,
+      "p": 2.425010115772622e-09
+     },
+     {
+      "feature": "algebraic_connectivity",
+      "H": 40.57814814814816,
+      "p": 8.034997029932903e-09
+     },
+     {
+      "feature": "spectral_radius",
+      "H": 57.030555555555566,
+      "p": 2.5315722006463406e-12
+     },
+     {
+      "feature": "spectral_gap",
+      "H": 44.23722222222227,
+      "p": 1.343839862524749e-09
+     },
+     {
+      "feature": "spectral_entropy",
+      "H": 52.35351851851857,
+      "p": 2.5180290710753707e-11
+     }
+    ],
+    "fisher_mean": 1.2542021422860636,
+    "fisher_per_feature": {
+     "n_nodes": 1.9766085169815906,
+     "n_hyperedges": 0.5517299294591872,
+     "hedge_size_mean": 1.3419473264515291,
+     "hedge_size_std": 1.8358526934026427,
+     "hedge_size_max": 1.80362733896861,
+     "hedge_size_entropy": 1.4614281709509829,
+     "node_degree_mean": 0.6098921543258083,
+     "node_degree_std": 0.23934523413213135,
+     "overlap_ratio": 1.1872683412193517,
+     "hedge_interaction": 0.5488335420292731,
+     "giant_fraction": 0.991264480763927,
+     "algebraic_connectivity": 1.2134392352203247,
+     "spectral_radius": 2.3275345440272974,
+     "spectral_gap": 0.9564719152159438,
+     "spectral_entropy": 1.767788711142356
+    },
+    "nc_cv_acc": 0.8,
+    "nc_cv_std": 0.07288689868556626,
+    "silhouette": 0.16569795165509027
+   },
+   "tau_mean": 10.95,
+   "tau_std": 5.293628245353087,
+   "hedge_mean": 10.975
+  },
+  "cc": {
+   "separability": {
+    "kw": [
+     {
+      "feature": "n_nodes",
+      "H": 17.799590462965117,
+      "p": 0.00048375547868746515
+     },
+     {
+      "feature": "n_hyperedges",
+      "H": 20.72635577013885,
+      "p": 0.00011998949681297168
+     },
+     {
+      "feature": "hedge_size_mean",
+      "H": 17.640947502900875,
+      "p": 0.0005215787549355785
+     },
+     {
+      "feature": "hedge_size_std",
+      "H": 38.04018518518524,
+      "p": 2.7716432290709725e-08
+     },
+     {
+      "feature": "hedge_size_max",
+      "H": 53.110581746999266,
+      "p": 1.7364893487511482e-11
+     },
+     {
+      "feature": "hedge_size_entropy",
+      "H": 43.71370370370374,
+      "p": 1.7360141054997363e-09
+     },
+     {
+      "feature": "node_degree_mean",
+      "H": 38.77249147317712,
+      "p": 1.9393631676909536e-08
+     },
+     {
+      "feature": "node_degree_std",
+      "H": 40.37370370370371,
+      "p": 8.87838567594013e-09
+     },
+     {
+      "feature": "overlap_ratio",
+      "H": 44.12166666666673,
+      "p": 1.4219890008500797e-09
+     },
+     {
+      "feature": "hedge_interaction",
+      "H": 15.477407407407384,
+      "p": 0.0014509517236194753
+     },
+     {
+      "feature": "giant_fraction",
+      "H": 40.474543953976685,
+      "p": 8.451883718630885e-09
+     },
+     {
+      "feature": "algebraic_connectivity",
+      "H": 8.437962962962985,
+      "p": 0.03777656984640702
+     },
+     {
+      "feature": "spectral_radius",
+      "H": 52.46981481481487,
+      "p": 2.3783279308288738e-11
+     },
+     {
+      "feature": "spectral_gap",
+      "H": 53.27796296296299,
+      "p": 1.599501618136842e-11
+     },
+     {
+      "feature": "spectral_entropy",
+      "H": 41.969444444444434,
+      "p": 4.072477498296442e-09
+     }
+    ],
+    "fisher_mean": 0.9431122188064717,
+    "fisher_per_feature": {
+     "n_nodes": 0.22692076409560083,
+     "n_hyperedges": 0.29809739190878676,
+     "hedge_size_mean": 0.22896082330703812,
+     "hedge_size_std": 1.1191740143103712,
+     "hedge_size_max": 2.1318713652915187,
+     "hedge_size_entropy": 1.2182231847301572,
+     "node_degree_mean": 0.560572140405538,
+     "node_degree_std": 0.6264285152136952,
+     "overlap_ratio": 2.0442700764745196,
+     "hedge_interaction": 0.17822310961151427,
+     "giant_fraction": 0.42896981533521283,
+     "algebraic_connectivity": 0.16237417373994917,
+     "spectral_radius": 2.3490886275664695,
+     "spectral_gap": 1.509281459175813,
+     "spectral_entropy": 1.0642278209308895
+    },
+    "nc_cv_acc": 0.65,
+    "nc_cv_std": 0.08477912478906585,
+    "silhouette": 0.1539861965587652
+   },
+   "tau_mean": 22.275,
+   "tau_std": 29.45885902406948,
+   "hedge_mean": 24.325
+  }
+ },
+ "runtime_s": 545.801332950592
+}
